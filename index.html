@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css" media="screen and (min-width: 600px)">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;0,800;1,500;1,800&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="all-content">
+<div class="content-box">
+  
+      <section id="result">
+        <div class="result-blue">
+          <span class="result-title">Your Result</span>
+          <div class="result-circle">
+            <span class="result-score" id="boldscore">76</span>
+            <span class="result-score">of 100</span>
+          </div>
+          <div class="result-dt">
+            <span class="attitude">Great</span>
+            <span class="result-compare">You scored higher than 65% of the people who have taken these tests.</span>
+          </div>
+        </div>
+      </section>
+  
+  
+      <section class="reaction">
+        <span class="summary-title">Summary</span>
+        <div class="reaction-container">
+          <div class="reaction-wrap">
+            <div class="reaction-title" id="reaction">
+              <img src="assets/images/icon-reaction.svg" alt="reactIco">
+              <span class="reaction-text">Reaction</span>
+            </div>
+            <div class="reaction-score"><span class="reaction-number">80</span> <span class="reaction-100">/
+                100</span></div>
+          </div>
+          <div class="reaction-wrap">
+            <div class="reaction-title" id="memory"><img src="assets/images/icon-memory.svg" alt="memoryIco"><span
+                class="reaction-text">Memory</span></div>
+            <span class="reaction-score"><span class="reaction-number">92</span> <span class="reaction-100">/
+                100</span></span>
+          </div>
+          <div class="reaction-wrap">
+            <div class="reaction-title" id="verbal"><img src="assets/images/icon-verbal.svg" alt="verbalIco"><span
+                class="reaction-text">Verbal</span></div>
+            <span class="reaction-score"><span class="reaction-number">61</span> <span class="reaction-100">/
+                100</span></span>
+          </div>
+          <div class="reaction-wrap">
+            <div class="reaction-title" id="visual"><img src="assets/images/icon-visual.svg" alt="visualIco"><span
+                class="reaction-text">Visual</span></div>
+            <span class="reaction-score"><span class="reaction-number">72</span> <span class="reaction-100">/
+                100</span></span>
+          </div>
+        </div>
+        <span class="reaction-continue">Continue</span>
+      </section>
+    </div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Dan Zemlyansky</a>.
+  </div>
+</body>
+
+</html>
